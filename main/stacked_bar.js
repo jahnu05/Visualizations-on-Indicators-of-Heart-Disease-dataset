@@ -1,5 +1,5 @@
 // Load data from CSV
-d3.csv("stacked_bar.csv").then(function(data) {
+d3.csv("https://jahnu05.github.io/Visualizations-on-Indicators-of-Heart-Disease-dataset/main/stacked_bar.csv").then(function(data) {
     // Data preprocessing
     data.forEach(function(d) {
         d["Current smoker - now smokes every day"] = +d["Current smoker - now smokes every day"];
