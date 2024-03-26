@@ -1,5 +1,5 @@
 // Load data from CSV
-d3.csv("../stack_bar.csv").then(function(data) {
+d3.csv("stack_bar.csv").then(function(data) {
     // Data preprocessing
     data.forEach(function(d) {
         d["Current smoker - now smokes every day"] = +d["Current smoker - now smokes every day"];
